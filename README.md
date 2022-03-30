@@ -7,3 +7,5 @@ This is the code template for Fizz Buzz game using Maven Java project to demo Gi
 3. Add code to fix the failed test
 4. Complete the code and test, making sure that the build pass
 5. Add the CI badge to README.md
+
+[![Java CI with Maven](https://github.com/salazarr2/swe-ci-demo/actions/workflows/maven.yml/badge.svg)](https://github.com/salazarr2/swe-ci-demo/actions/workflows/maven.yml)
