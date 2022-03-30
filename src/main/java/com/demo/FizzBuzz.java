@@ -17,9 +17,6 @@ public class FizzBuzz
           both = true;
         }
         if (num % 5 == 0) {
-          if (both) {
-            output.append(" ");
-          }
           output.append("Buzz");
         }
         
