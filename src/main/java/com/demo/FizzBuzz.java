@@ -29,13 +29,13 @@ public class FizzBuzz
 	String processNumbers (int[] numList)
 	{
     	StringBuilder output = new StringBuilder("");
-        for (int i = 0; i < nums.length; i++) {
-          int test = nums[i];
+        for (int i = 0; i < numList.length; i++) {
+          int test = numList[i];
           if (test <= 0) {
             continue;
           }
           output.append(processNumber(test));
-          if (i != nums.length -1) {
+          if (i != numList.length -1) {
             output.append(", ");
           }
         }
